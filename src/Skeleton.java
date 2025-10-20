@@ -9,8 +9,8 @@ public class Skeleton extends Boss {
         this.arrow = arrow;
     }
     @Override
-    public void printInfo(){
-       super.printInfo();
+    public void printInfo() {
+        super.printInfo();
         System.out.println("Number of arrows: "+ arrow);
 
     }

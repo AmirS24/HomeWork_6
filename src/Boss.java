@@ -16,8 +16,8 @@ return weaponBoss; }
     }
 
     public void printInfo(){
-        System.out.println(name +" Heal: " + getHeal());
-        System.out.println(name +" Damage: "+  getDamage());
+        System.out.println(name + " Heal: " + getHeal());
+        System.out.println(name + " Damage: " + getDamage());
         System.out.println(name + " Weapon: " + getWeaponBoss().getWeapon() + " Weapon type: " + getWeaponBoss().getType());
     }
 }
