@@ -1,5 +1,6 @@
 public class  HomeWork_6 {
     void main() {
+
         Weapon weapon = new Weapon();
         weapon.setWeapon("Claw");
         weapon.setType(WeaponType.HAND_TO_HAND_WEAPONS);
